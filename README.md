@@ -17,7 +17,7 @@ import { toSha } from "./crypto/tosha.js"
 const params = {"topNum":"5","timestamp":"1675998834"}
 
 // toSha(key, value)
-toSha({"topNum":"5","timestamp":"1675998834"}, 'a05315753c2842598ee5daca4f7ef399')
+toSha(params, 'a05315753c2842598ee5daca4f7ef399')
 ```
 
 
